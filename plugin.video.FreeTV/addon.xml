@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.FreeTV" name="FreeTV" version="0.0.1" provider-name="T-R3X">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="defaut.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>pt</language>
+    <platform>all</platform>
+    <summary lang="en">www.avensat.com</summary>
+    <description lang="en">Addon de Teste</description>
+	<platform>all</platform>
+  </extension>
+</addon>
