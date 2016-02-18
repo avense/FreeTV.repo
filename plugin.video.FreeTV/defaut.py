@@ -20,7 +20,7 @@ from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
 from BeautifulSoup import BeautifulSoup
 h = HTMLParser.HTMLParser()
 
-versao = '0.0.3'
+versao = '0.0.4'
 addon_id = 'plugin.video.FreeTV'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 addonfolder = selfAddon.getAddonInfo('path')
@@ -40,9 +40,9 @@ def  menus():
 	addDir('[B]Canais TV Free[/B]','-',2,'')	
 	
 def  categorias():
-	addDir('[B]Eventos[/B]','http://pastebin.com/JSxSwLgT',4,'http://www.arnaldos.com.br/img/jogo_breve.png')
+	addDir('[B]Eventos[/B]','http://pastebin.com/raw/JSxSwLgT',4,'http://www.arnaldos.com.br/img/jogo_breve.png')
 	addDir('[B]Portugueses[/B]','http://pastebin.com/raw/cHKGyc3b',4,'http://www.iconarchive.com/download/i65919/hopstarter/flag-borderless/Portugal.ico')
-	addDir('[B]Desporto[/B]','http://pastebin.com/6KqM4GPK',4,'http://3.bp.blogspot.com/-bizrWLIjDLM/UD82C_FF2pI/AAAAAAAACsw/Ok4SjScgQrU/s1600/desporto.png')
+	addDir('[B]Desporto[/B]','http://pastebin.com/raw/6KqM4GPK',4,'http://3.bp.blogspot.com/-bizrWLIjDLM/UD82C_FF2pI/AAAAAAAACsw/Ok4SjScgQrU/s1600/desporto.png')
 		
 
 ###############################################################FKav####################################################
