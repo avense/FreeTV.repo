@@ -20,7 +20,7 @@ from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
 from BeautifulSoup import BeautifulSoup
 h = HTMLParser.HTMLParser()
 
-versao = '0.0.7'
+versao = '0.0.8'
 addon_id = 'plugin.video.FreeTV'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 addonfolder = selfAddon.getAddonInfo('path')
@@ -50,6 +50,7 @@ def  categorias():
 	addDir('[B]Infantil[/B]','http://pastebin.com/raw/6WYJVjxb',4,'https://lh5.googleusercontent.com/-yzHm4QdLxTM/AAAAAAAAAAI/AAAAAAAAABI/Red-UDwV8rQ/photo.jpg')
 	addDir('[B]Praias[/B]','http://pastebin.com/raw/3EAp4y6X',4,'http://thumbs.dreamstime.com/x/beach-sunset-logo-sun-sets-scene-peaceful-icon-37222618.jpg')
 	addDir('[B]Radios[/B]','http://pastebin.com/raw/cxRAFP5M',4,'http://www.burningnightscrps.org/wp-content/uploads/2015/02/Listen-Online-Radio-icon.jpg')
+	addDir('[B]Futebol No Estrangeiro[/B]','http://pastebin.com/raw/Y5MLLGLk',4,'https://www.gvt.com.br/Portal%20GVT/_ArquivosEstaticos/area-aberta/_imagens/bg/bg-canais-internacionais.png')
 ###############################################################FKav####################################################
 
 def listar_canais(url):
