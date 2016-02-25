@@ -14,7 +14,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.FreeTV" name="FreeTV" version="0.0.8" provider-name="T-R3X">
+<addon id="plugin.video.FreeTV" name="FreeTV" version="1.0.0" provider-name="T-R3X">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
