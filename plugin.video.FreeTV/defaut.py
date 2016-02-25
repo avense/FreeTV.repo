@@ -20,7 +20,7 @@ from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
 from BeautifulSoup import BeautifulSoup
 h = HTMLParser.HTMLParser()
 
-versao = '1.0.0'
+versao = '1.0.1'
 addon_id = 'plugin.video.FreeTV'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 __ALERTA__ = xbmcgui.Dialog().ok
@@ -40,7 +40,7 @@ url_base6 = base64.b64decode('aHR0cDovL3d3dy5jYXJvbGluZW9saXZlaXJhLmNvbS5ici9zd2
 
 def  menus():        		
 	dialog = xbmcgui.Dialog()
-	dialog.ok("[B]FreeTV[/B]", "uPDATE para                              Versao 1.0.0")
+	dialog.ok("[B]FreeTV[/B]", "    UPDATE para                            Versao 1.0.0")
 	addDir('[B]Canais TV Free[/B]','-',2,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
 	addDir('Este addon é Free nao somos obrigados a ter nada a funcionar','',2,'http://1.bp.blogspot.com/-egfHu9j4ueo/Uc3dLWyvHbI/AAAAAAAAAV4/vTI8bRsQKZs/s600/Alert-Icon-.png')
 	
