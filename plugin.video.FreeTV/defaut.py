@@ -40,8 +40,8 @@ url_base6 = base64.b64decode('aHR0cDovL3d3dy5jYXJvbGluZW9saXZlaXJhLmNvbS5ici9zd2
 
 def  menus():        		
 	dialog = xbmcgui.Dialog()
-	dialog.ok("[B]FreeTV[/B]", "    UPDATE para                            Versao 1.0.0")
-	addDir('[B]Canais TV Free[/B]','-',2,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
+	addDir('[B]Canais TV[/B]','-',2,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
+	addDir('[B]Canais TDT[/B]','-',3,'http://pplware.sapo.pt/wp-content/uploads/2015/11/tdt_01.jpg')
 	addDir('Este addon é Free nao somos obrigados a ter nada a funcionar','',2,'http://1.bp.blogspot.com/-egfHu9j4ueo/Uc3dLWyvHbI/AAAAAAAAAV4/vTI8bRsQKZs/s600/Alert-Icon-.png')
 	
 def  categorias():
@@ -61,7 +61,8 @@ def  categorias():
 		addDir('[B]Alterar Definições[/B]','http://pastebin.com/raw/JSxSwLgT',1000,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
 		addDir('[B]Entrar novamente[/B]','',None,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
 	    
-
+def categorias_amigos():
+		addDir('TDT Portugal','http://tinyurl.com/zzux5dy',4,'http://www.atelevisao.com/wp-content/uploads/2013/09/imagesCA7P4VOJ.jpg')
 ############################################################### Login ####################################################
 
 def login():
@@ -334,7 +335,7 @@ elif mode==2:
 
 elif mode==3:
 	print ""
-	categorias_tv_paga_brasil()	
+	categorias_amigos()	
 	
 elif mode==4: 
 	print ""
