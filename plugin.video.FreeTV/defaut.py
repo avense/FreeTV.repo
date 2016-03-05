@@ -40,9 +40,9 @@ url_base6 = base64.b64decode('aHR0cDovL3d3dy5jYXJvbGluZW9saXZlaXJhLmNvbS5ici9zd2
 
 def  menus():        		
 	dialog = xbmcgui.Dialog()
-	addDir('[B]Canais TV[/B]','-',2,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
-	addDir('[B]Canais TDT[/B]','-',3,'http://pplware.sapo.pt/wp-content/uploads/2015/11/tdt_01.jpg')
-	addDir('Este addon é Free nao somos obrigados a ter nada a funcionar','',2,'http://1.bp.blogspot.com/-egfHu9j4ueo/Uc3dLWyvHbI/AAAAAAAAAV4/vTI8bRsQKZs/s600/Alert-Icon-.png')
+	addDir('[B]Canais TV[/B]','-',2,'http://i66.tinypic.com/23vxb8n.jpg')
+	addDir('[B]Canais TDT[/B]','-',3,'http://i64.tinypic.com/syxst5.jpg')
+	addDir('Este addon é Free nao somos obrigados a ter nada a funcionar','',2,'http://i65.tinypic.com/2meogts.jpg')
 	
 def  categorias():
 	check_login = login()
@@ -56,6 +56,7 @@ def  categorias():
 		addDir('[B]Infantil[/B]','http://pastebin.com/raw/6WYJVjxb',4,'https://lh5.googleusercontent.com/-yzHm4QdLxTM/AAAAAAAAAAI/AAAAAAAAABI/Red-UDwV8rQ/photo.jpg')
 		addDir('[B]Praias[/B]','http://pastebin.com/raw/3EAp4y6X',4,'http://thumbs.dreamstime.com/x/beach-sunset-logo-sun-sets-scene-peaceful-icon-37222618.jpg')
 		addDir('[B]Radios[/B]','http://pastebin.com/raw/cxRAFP5M',4,'http://www.burningnightscrps.org/wp-content/uploads/2015/02/Listen-Online-Radio-icon.jpg')
+		addDir('[B]Canais Plexus[/B]','http://pastebin.com/raw/1H99M78H',4,'http://www.redeneobux.com/wp-content/uploads/2015/10/rsz_plexus_addon_plugin_xbmc_kodi.png')
 		addDir('[B]Futebol No Estrangeiro[/B]','http://pastebin.com/raw/Y5MLLGLk',4,'https://www.gvt.com.br/Portal%20GVT/_ArquivosEstaticos/area-aberta/_imagens/bg/bg-canais-internacionais.png')
 	else:
 		addDir('[B]Alterar Definições[/B]','http://pastebin.com/raw/JSxSwLgT',1000,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
