@@ -20,7 +20,7 @@ from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
 from BeautifulSoup import BeautifulSoup
 h = HTMLParser.HTMLParser()
 
-versao = '1.0.1'
+versao = '1.0.4'
 addon_id = 'plugin.video.FreeTV'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 __ALERTA__ = xbmcgui.Dialog().ok
@@ -40,30 +40,30 @@ url_base6 = base64.b64decode('aHR0cDovL3d3dy5jYXJvbGluZW9saXZlaXJhLmNvbS5ici9zd2
 
 def  menus():        		
 	dialog = xbmcgui.Dialog()
-	addDir('[B]Canais TV[/B]','-',2,'http://i66.tinypic.com/23vxb8n.jpg')
-	addDir('[B]Canais TDT[/B]','-',3,'http://i64.tinypic.com/syxst5.jpg')
-	addDir('Este addon é Free nao somos obrigados a ter nada a funcionar','',2,'http://i65.tinypic.com/2meogts.jpg')
+	addDir('[B]Canais TV[/B]','-',2,'http://avensat.com/Trexx/LogosEntrada/1.png')
+	addDir('[B]Canais TDT[/B]','-',3,'http://avensat.com/Trexx/LogosEntrada/2.png')
+	addDir('Este addon é Free nao somos obrigados a ter nada a funcionar','',2,'http://avensat.com/Trexx/LogosEntrada/3.png')
 	
 def  categorias():
 	check_login = login()
 	if check_login:
-		addDir('[B]Eventos[/B]','http://pastebin.com/raw/JSxSwLgT',4,'http://lininatural.com/wp-content/uploads/2015/01/Coming-Soon1.jpg')
-		addDir('[B]Portugueses[/B]','http://pastebin.com/raw/cHKGyc3b',4,'http://i1107.photobucket.com/albums/h398/foxtv1/www-tvportugal-tv_zps65da811b.jpg')
-		addDir('[B]Desporto[/B]','http://pastebin.com/raw/6KqM4GPK',4,'http://3.bp.blogspot.com/-bizrWLIjDLM/UD82C_FF2pI/AAAAAAAACsw/Ok4SjScgQrU/s1600/desporto.png')
-		addDir('[B]Musica[/B]','http://pastebin.com/raw/b5DMRw2a',4,'http://www.imagenstop.blog.br/wp-content/gallery/imagens-de-musica/Imagem-de-Musica-para-Baixar.jpg')
-		addDir('[B]Documentários[/B]','http://pastebin.com/raw/e3uUs6Un',4,'http://comps.canstockphoto.com/can-stock-photo_csp20747163.jpg')
-		addDir('[B]Filmes[/B]','http://pastebin.com/raw/LWPyktJM',4,'https://catracalivre.com.br/wp-content/uploads/2011/08/hist%C3%B3rias-que-ficam-reprodu%C3%A7%C3%A3o.jpg')
-		addDir('[B]Infantil[/B]','http://pastebin.com/raw/6WYJVjxb',4,'https://lh5.googleusercontent.com/-yzHm4QdLxTM/AAAAAAAAAAI/AAAAAAAAABI/Red-UDwV8rQ/photo.jpg')
-		addDir('[B]Praias[/B]','http://pastebin.com/raw/3EAp4y6X',4,'http://thumbs.dreamstime.com/x/beach-sunset-logo-sun-sets-scene-peaceful-icon-37222618.jpg')
-		addDir('[B]Radios[/B]','http://pastebin.com/raw/cxRAFP5M',4,'http://www.burningnightscrps.org/wp-content/uploads/2015/02/Listen-Online-Radio-icon.jpg')
-		addDir('[B]Canais Plexus[/B]','http://pastebin.com/raw/1H99M78H',4,'http://www.redeneobux.com/wp-content/uploads/2015/10/rsz_plexus_addon_plugin_xbmc_kodi.png')
-		addDir('[B]Futebol No Estrangeiro[/B]','http://pastebin.com/raw/Y5MLLGLk',4,'https://www.gvt.com.br/Portal%20GVT/_ArquivosEstaticos/area-aberta/_imagens/bg/bg-canais-internacionais.png')
+		addDir('[B]Eventos[/B]','http://avensat.com/Trexx/Listas/eventos.txt',4,'http://avensat.com/Trexx/LogosCategorias/coming.png')
+		addDir('[B]Portugueses[/B]','http://avensat.com/Trexx/Listas/pts.txt',4,'http://avensat.com/Trexx/LogosCategorias/Portugal.png')
+		addDir('[B]Desporto[/B]','http://avensat.com/Trexx/desporto.txt',4,'http://avensat.com/Trexx/LogosCategorias/football-icon.png')
+		addDir('[B]Musica[/B]','http://avensat.com/Trexx/Listas/musica.txt',4,'http://www.imagenstop.blog.br/wp-content/gallery/imagens-de-musica/Imagem-de-Musica-para-Baixar.jpg')
+		addDir('[B]Documentários[/B]','http://aavensat.com/Trexx/Listas/documentarios.txt',4,'http://comps.canstockphoto.com/can-stock-photo_csp20747163.jpg')
+		addDir('[B]Filmes[/B]','http://avensat.com/Trexx/Listas/filmes.txt',4,'https://catracalivre.com.br/wp-content/uploads/2011/08/hist%C3%B3rias-que-ficam-reprodu%C3%A7%C3%A3o.jpg')
+		addDir('[B]Infantil[/B]','http://avensat.com/Trexx/Listas/banda_desenhada.txt',4,'https://lh5.googleusercontent.com/-yzHm4QdLxTM/AAAAAAAAAAI/AAAAAAAAABI/Red-UDwV8rQ/photo.jpg')
+		addDir('[B]Praias[/B]','http://avensat.com/Trexx/Listas/praias_de_portugal_-webcam-.txt',4,'http://thumbs.dreamstime.com/x/beach-sunset-logo-sun-sets-scene-peaceful-icon-37222618.jpg')
+		addDir('[B]Radios[/B]','http://avensat.com/Trexx/Listas/radios_de_portugal.txt',4,'http://www.burningnightscrps.org/wp-content/uploads/2015/02/Listen-Online-Radio-icon.jpg')
+		addDir('[B]Canais Plexus[/B]','http://avensat.com/Trexx/Listas/plexus.txt',4,'http://www.redeneobux.com/wp-content/uploads/2015/10/rsz_plexus_addon_plugin_xbmc_kodi.png')
+		addDir('[B]Futebol No Estrangeiro[/B]','http://avensat.com/Trexx/Listas/jogos_canais_estrangeiros.txt',4,'https://www.gvt.com.br/Portal%20GVT/_ArquivosEstaticos/area-aberta/_imagens/bg/bg-canais-internacionais.png')
 	else:
 		addDir('[B]Alterar Definições[/B]','http://pastebin.com/raw/JSxSwLgT',1000,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
 		addDir('[B]Entrar novamente[/B]','',None,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
 	    
 def categorias_amigos():
-		addDir('TDT Portugal','http://tinyurl.com/zzux5dy',4,'http://www.atelevisao.com/wp-content/uploads/2013/09/imagesCA7P4VOJ.jpg')
+		addDir('TDT Portugal','http://avensat.com/Trexx/ListaFree/freept.txt',4,'http://www.atelevisao.com/wp-content/uploads/2013/09/imagesCA7P4VOJ.jpg')
 ############################################################### Login ####################################################
 
 def login():
