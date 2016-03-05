@@ -49,7 +49,7 @@ def  categorias():
 	if check_login:
 		addDir('[B]Eventos[/B]','http://avensat.com/Trexx/Listas/eventos.txt',4,'http://avensat.com/Trexx/LogosCategorias/coming.png')
 		addDir('[B]Portugueses[/B]','http://avensat.com/Trexx/Listas/pts.txt',4,'http://avensat.com/Trexx/LogosCategorias/Portugal.png')
-		addDir('[B]Desporto[/B]','http://avensat.com/Trexx/desporto.txt',4,'http://avensat.com/Trexx/LogosCategorias/desporto.png')
+		addDir('[B]Desporto[/B]','http://avensat.com/Trexx/Listas/desporto.txt',4,'http://avensat.com/Trexx/LogosCategorias/desporto.png')
 		addDir('[B]Musica[/B]','http://avensat.com/Trexx/Listas/musica.txt',4,'http://avensat.com/Trexx/LogosCategorias/musica.png')
 		addDir('[B]Documentários[/B]','http://aavensat.com/Trexx/Listas/documentarios.txt',4,'http://avensat.com/Trexx/LogosCategorias/documentari.png')
 		addDir('[B]Filmes[/B]','http://avensat.com/Trexx/Listas/filmes.txt',4,'http://avensat.com/Trexx/LogosCategorias/movies.png')
