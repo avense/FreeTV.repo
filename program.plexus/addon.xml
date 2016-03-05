@@ -1,35 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="FreeTv.repo" name="FreeTV 4 all" version="0.0.1" provider-name="T-R3X">
-	<extension point="xbmc.addon.repository" name="FreeTV 4 all">
-		<info compressed="false">http://raw.github.com/h3ld3rkid/FreeTv.repo/master/addons.xml</info>
-		<checksum>http://raw.github.com/h3ld3rkid/FreeTv.repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/h3ld3rkid/FreeTv.repo/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Links da Net</summary>
-		<description>Sempre Free</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="plugin.video.FreeTV" name="FreeTV" version="1.0.2" provider-name="T-R3X">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="defaut.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>pt</language>
-    <platform>all</platform>
-    <summary lang="en">www.avensat.com</summary>
-    <description lang="en">Com a ajuda do amigo Américo</description>
-	<platform>all</platform>
-  </extension>
-</addon>
-
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="program.plexus"
        name="Plexus"
        version="0.1.4"
@@ -42,7 +11,7 @@
             library="default.py">
         <provides>executable</provides>
   </extension>
-
+  
   <extension point="xbmc.addon.metadata">
     <summary>SopCast and AceStream for Kodi</summary>
     <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
@@ -53,4 +22,3 @@
     <platform>all</platform>
   </extension>
 </addon>
-</addons>
