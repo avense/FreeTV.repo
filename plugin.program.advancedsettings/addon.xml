@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.advancedsettings"
+       name="Redução do Buffering"
+       version="0.0.1"
+       provider-name="T-R3X">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>video executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Criar, visualizar, editar e excluir o arquivo advancedsettings.xml</summary>
+        <description>Com esta ferramenta podes criar as tuas configuracoes avancadas diretamente do XBMC ou KODI.Se não sabes o que uma configuracao faz, não o inicies!</description>
+        <platform>all</platform>
+        <language>pt</language>
+        <license>GNU GENERAL PUBLIC LICENSE</license>
+        <forum>http://www.avensat.com</forum>
+        <source></source>
+        <email></email>
+    </extension>
+	
+</addon>
