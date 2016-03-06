@@ -51,7 +51,7 @@ def  categorias():
 		addDir('[B]Portugueses[/B]','http://avensat.com/Trexx/Listas/pts.txt',4,'http://avensat.com/Trexx/LogosCategorias/Portugal.png')
 		addDir('[B]Desporto[/B]','http://avensat.com/Trexx/Listas/desporto.txt',4,'http://avensat.com/Trexx/LogosCategorias/desporto.png')
 		addDir('[B]Musica[/B]','http://avensat.com/Trexx/Listas/musica.txt',4,'http://avensat.com/Trexx/LogosCategorias/musica.png')
-		addDir('[B]Documentários[/B]','http://aavensat.com/Trexx/Listas/documentarios.txt',4,'http://avensat.com/Trexx/LogosCategorias/documentari.png')
+		addDir('[B]Documentários[/B]','http://avensat.com/Trexx/Listas/documentarios.txt',4,'http://avensat.com/Trexx/LogosCategorias/documentari.png')
 		addDir('[B]Filmes[/B]','http://avensat.com/Trexx/Listas/filmes.txt',4,'http://avensat.com/Trexx/LogosCategorias/movies.png')
 		addDir('[B]Infantil[/B]','http://avensat.com/Trexx/Listas/banda_desenhada.txt',4,'http://avensat.com/Trexx/LogosCategorias/cartoon.png')
 		addDir('[B]Praias[/B]','http://avensat.com/Trexx/Listas/praias_de_portugal_-webcam-.txt',4,'http://avensat.com/Trexx/LogosCategorias/beach.png')
