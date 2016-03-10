@@ -20,7 +20,7 @@ from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
 from BeautifulSoup import BeautifulSoup
 h = HTMLParser.HTMLParser()
 
-versao = '1.0.4'
+versao = '1.0.8'
 addon_id = 'plugin.video.FreeTV'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 __ALERTA__ = xbmcgui.Dialog().ok
@@ -43,6 +43,7 @@ def  menus():
 	addDir('[B]Canais TV[/B]','-',2,'http://avensat.com/Trexx/LogosEntrada/1.png')
 	addDir('[B]Canais TDT[/B]','-',3,'http://avensat.com/Trexx/LogosEntrada/2.png')
 	addDir('Este addon é Free nao somos obrigados a ter nada a funcionar','',2,'http://avensat.com/Trexx/LogosEntrada/3.png')
+	addDir('DesportoFree','-',9,'http://avensat.com/Trexx/LogosCategorias/freesport.png')
 	
 def  categorias():
 	check_login = login()
@@ -64,6 +65,9 @@ def  categorias():
 	    
 def categorias_amigos():
 		addDir('TDT Portugal','http://avensat.com/Trexx/ListaFree/freept.txt',4,'http://www.atelevisao.com/wp-content/uploads/2013/09/imagesCA7P4VOJ.jpg')
+		
+def canais_sport():
+		addDir('Desporto Free','http://avensat.com/Trexx/ListaFree/freesport.txt',4,'http://avensat.com/Trexx/LogosCategorias/freesport.png')
 ############################################################### Login ####################################################
 
 def login():
@@ -358,7 +362,7 @@ elif mode==8:
 	
 elif mode==9:
     print ""
-    series_e_desenhos_24hrs()	
+    canais_sport()	
 	
 elif mode==10:
     print ""
