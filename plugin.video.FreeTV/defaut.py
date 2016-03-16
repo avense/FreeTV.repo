@@ -20,7 +20,7 @@ from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
 from BeautifulSoup import BeautifulSoup
 h = HTMLParser.HTMLParser()
 
-versao = '1.0.8'
+versao = '2.0.0'
 addon_id = 'plugin.video.FreeTV'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 __ALERTA__ = xbmcgui.Dialog().ok
@@ -44,6 +44,7 @@ def  menus():
 	addDir('[B]Canais TDT[/B]','-',3,'http://avensat.com/Trexx/LogosEntrada/2.png')
 	addDir('Este addon é Free nao somos obrigados a ter nada a funcionar','',2,'http://avensat.com/Trexx/LogosEntrada/3.png')
 	addDir('DesportoFree','-',9,'http://avensat.com/Trexx/LogosCategorias/freesport.png')
+	addDir('Filmes Online','-',12,'http://avensat.com/Trexx/LogosEntrada/filme.png')
 	
 def  categorias():
 	check_login = login()
@@ -68,6 +69,9 @@ def categorias_amigos():
 		
 def canais_sport():
 		addDir('Desporto Free','http://avensat.com/Trexx/ListaFree/freesport.txt',4,'http://avensat.com/Trexx/LogosCategorias/freesport.png')
+		
+def filmes_online():
+		addDir('Filmes Dublados BR','http://avensat.com/Trexx/ListaFree/Filmes.txt',4,'http://avensat.com/Trexx/LogosEntrada/filme.png')
 ############################################################### Login ####################################################
 
 def login():
@@ -370,7 +374,12 @@ elif mode==10:
 	
 elif mode==11:
     print ""
-    player_series_e_desenhos_24hrs(name,url,iconimage)	
+    player_series_e_desenhos_24hrs(name,url,iconimage)
+	
+elif mode==12:
+	print ""
+	filmes_online()
+	
 elif mode==1000: 
 	abrirDefinincoes()
 xbmcplugin.endOfDirectory(int(sys.argv[1]))
