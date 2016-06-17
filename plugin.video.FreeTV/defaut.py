@@ -40,38 +40,38 @@ url_base6 = base64.b64decode('aHR0cDovL3d3dy5jYXJvbGluZW9saXZlaXJhLmNvbS5ici9zd2
 
 def  menus():        		
 	dialog = xbmcgui.Dialog()
-	addDir('[B]Canais TV[/B]','-',2,'http://avensat.com/Trexx/LogosEntrada/1.png')
-	addDir('[B]Canais TDT[/B]','-',3,'http://avensat.com/Trexx/LogosEntrada/2.png')
-	addDir('Este addon é Free nao somos obrigados a ter nada a funcionar','',2,'http://avensat.com/Trexx/LogosEntrada/3.png')
-	addDir('DesportoFree','-',9,'http://avensat.com/Trexx/LogosCategorias/freesport.png')
-	addDir('Filmes Online','-',12,'http://avensat.com/Trexx/LogosEntrada/filme.png')
+	addDir('[B]Canais TV[/B]','-',2,'http://avensat.net/addon/LogosEntrada/1.png')
+	addDir('[B]Canais TDT[/B]','-',3,'http://avensat.net/addon/LogosEntrada/2.png')
+	addDir('Este addon é Free nao somos obrigados a ter nada a funcionar','',2,'http://avensat.net/addon/LogosEntrada/3.png')
+	addDir('DesportoFree','-',9,'http://avensat.net/addon/LogosCategorias/freesport.png')
+	addDir('Filmes Online','-',12,'http://avensat.net/addon/LogosEntrada/filme.png')
 	
 def  categorias():
 	check_login = login()
 	if check_login:
-		addDir('[B]Eventos[/B]','http://avensat.com/Trexx/Listas/eventos.txt',4,'http://avensat.com/Trexx/LogosCategorias/coming.png')
-		addDir('[B]Portugueses[/B]','http://avensat.com/Trexx/Listas/pts.txt',4,'http://avensat.com/Trexx/LogosCategorias/Portugal.png')
-		addDir('[B]Desporto[/B]','http://avensat.com/Trexx/Listas/desporto.txt',4,'http://avensat.com/Trexx/LogosCategorias/desporto.png')
-		addDir('[B]Musica[/B]','http://avensat.com/Trexx/Listas/musica.txt',4,'http://avensat.com/Trexx/LogosCategorias/musica.png')
-		addDir('[B]Documentários[/B]','http://avensat.com/Trexx/Listas/documentarios.txt',4,'http://avensat.com/Trexx/LogosCategorias/documentari.png')
-		addDir('[B]Filmes[/B]','http://avensat.com/Trexx/Listas/filmes.txt',4,'http://avensat.com/Trexx/LogosCategorias/movies.png')
-		addDir('[B]Infantil[/B]','http://avensat.com/Trexx/Listas/banda_desenhada.txt',4,'http://avensat.com/Trexx/LogosCategorias/cartoon.png')
-		addDir('[B]Praias[/B]','http://avensat.com/Trexx/Listas/praias_de_portugal_-webcam-.txt',4,'http://avensat.com/Trexx/LogosCategorias/beach.png')
-		addDir('[B]Radios[/B]','http://avensat.com/Trexx/Listas/radios_de_portugal.txt',4,'http://avensat.com/Trexx/LogosCategorias/radio.png')
-		addDir('[B]Canais Plexus[/B]','http://avensat.com/Trexx/Listas/plexus.txt',4,'http://avensat.com/Trexx/LogosCategorias/plexus.png')
-		addDir('[B]Futebol No Estrangeiro[/B]','http://avensat.com/Trexx/Listas/jogos_canais_estrangeiros.txt',4,'http://avensat.com/Trexx/LogosCategorias/world_sport.png')
+		addDir('[B]Eventos[/B]','http://avensat.net/addon/Listas/eventos.txt',4,'http://avensat.net/addon/LogosCategorias/coming.png')
+		addDir('[B]Portugueses[/B]','http://avensat.net/addon/Listas/pts.txt',4,'http://avensat.net/addon/LogosCategorias/Portugal.png')
+		addDir('[B]Desporto[/B]','http://avensat.net/addon/Listas/desporto.txt',4,'http://avensat.net/addon/LogosCategorias/desporto.png')
+		addDir('[B]Musica[/B]','http://avensat.net/addon/Listas/musica.txt',4,'http://avensat.net/addon/LogosCategorias/musica.png')
+		addDir('[B]Documentários[/B]','http://avensat.net/addon/Listas/documentarios.txt',4,'http://avensat.net/addon/LogosCategorias/documentari.png')
+		addDir('[B]Filmes[/B]','http://avensat.net/addon/Listas/filmes.txt',4,'http://avensat.net/addon/LogosCategorias/movies.png')
+		addDir('[B]Infantil[/B]','http://avensat.net/addon/Listas/banda_desenhada.txt',4,'http://avensat.net/addon/LogosCategorias/cartoon.png')
+		addDir('[B]Praias[/B]','http://avensat.net/addon/Listas/praias_de_portugal_-webcam-.txt',4,'http://avensat.net/addon/LogosCategorias/beach.png')
+		addDir('[B]Radios[/B]','http://avensat.net/addon/Listas/radios_de_portugal.txt',4,'http://avensat.net/addon/LogosCategorias/radio.png')
+		addDir('[B]Canais Plexus[/B]','http://avensat.net/addon/Listas/plexus.txt',4,'http://avensat.net/addon/LogosCategorias/plexus.png')
+		addDir('[B]Futebol No Estrangeiro[/B]','http://avensat.net/addon/Listas/jogos_canais_estrangeiros.txt',4,'http://avensat.net/addon/LogosCategorias/world_sport.png')
 	else:
 		addDir('[B]Alterar Definições[/B]','http://pastebin.com/raw/JSxSwLgT',1000,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
 		addDir('[B]Entrar novamente[/B]','',None,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
 	    
 def categorias_amigos():
-		addDir('TDT Portugal','http://avensat.com/Trexx/ListaFree/freept.txt',4,'http://www.atelevisao.com/wp-content/uploads/2013/09/imagesCA7P4VOJ.jpg')
+		addDir('TDT Portugal','http://avensat.net/addon/ListaFree/freept.txt',4,'http://www.atelevisao.com/wp-content/uploads/2013/09/imagesCA7P4VOJ.jpg')
 		
 def canais_sport():
-		addDir('Desporto Free','http://avensat.com/Trexx/ListaFree/freesport.txt',4,'http://avensat.com/Trexx/LogosCategorias/freesport.png')
+		addDir('Desporto Free','http://avensat.net/addon/ListaFree/freesport.txt',4,'http://avensat.net/addon/LogosCategorias/freesport.png')
 		
 def filmes_online():
-		addDir('Filmes Dublados BR','http://avensat.com/Trexx/ListaFree/Filmes.txt',4,'http://avensat.com/Trexx/LogosEntrada/filme.png')
+		addDir('Filmes Dublados BR','http://avensat.net/addon/ListaFree/Filmes.txt',4,'http://avensat.net/addon/LogosEntrada/filme.png')
 ############################################################### Login ####################################################
 
 def login():
