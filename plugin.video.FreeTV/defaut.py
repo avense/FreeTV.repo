@@ -65,7 +65,7 @@ def  categorias():
 		addDir('[B]Entrar novamente[/B]','',None,'http://www.reversamag.com/wp-content/uploads/2016/01/talk-show-lgbt.jpg')
 	    
 def categorias_amigos():
-		addDir('TDT Portugal','http://avensat.net/addon/ListaFree/freept.txt',4,'http://www.atelevisao.com/wp-content/uploads/2013/09/imagesCA7P4VOJ.jpg')
+		addDir('TDT Portugal','http://pastebin.com/raw/hNyF4FQF',4,'http://www.atelevisao.com/wp-content/uploads/2013/09/imagesCA7P4VOJ.jpg')
 		
 def canais_sport():
 		addDir('Desporto Free','http://avensat.net/addon/ListaFree/freesport.txt',4,'http://avensat.net/addon/LogosCategorias/freesport.png')
