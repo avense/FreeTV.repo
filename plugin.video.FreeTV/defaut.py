@@ -71,7 +71,7 @@ def canais_sport():
 		addDir('Desporto Free','http://avensat.net/addon/ListaFree/freesport.txt',4,'http://avensat.net/addon/LogosCategorias/freesport.png')
 		
 def filmes_online():
-		addDir('Filmes Dublados BR','http://avensat.net/addon/ListaFree/Filmes.txt',4,'http://avensat.net/addon/LogosEntrada/filme.png')
+		addDir('Filmes Variados','http://avensat.net/addon/ListaFree/Filmes.txt',4,'http://avensat.net/addon/LogosEntrada/filme.png')
 ############################################################### Login ####################################################
 
 def login():
